@@ -1,14 +1,14 @@
-import { Header } from "@/components/header";
 import { BreakingNews } from "@/components/breaking-news";
 import { BroadcastSection } from "@/components/broadcast-section";
 import { FeaturedStories } from "@/components/featured-stories";
 import { NewsGrid } from "@/components/news-grid";
 import { TrendingSidebar } from "@/components/trending-sidebar";
-import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
+
+
       <BreakingNews />
       <BroadcastSection />
       <FeaturedStories />
@@ -23,6 +23,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
     </main>
   );
 }

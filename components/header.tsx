@@ -45,7 +45,7 @@ export function Header() {
           {items.map((item) => {
             const slug = item.toLowerCase();
             const href = slug === "home" ? "/" : `/${slug}`;
-            const isActive = pathname === href;
+            const isActive = pathname.includes(item);
 
             return (
               <Link

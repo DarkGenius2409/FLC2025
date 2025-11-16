@@ -1,72 +1,54 @@
-import { Header } from "@/components/header";
-import { VideoPlayer } from "@/components/video-player";
-import { Footer } from "@/components/footer";
+"use client";
 
-export default function Home() {
+import MorphCarousel from "@/components/MorphCarousel";
+
+const sections = [
+  {
+    title: "Technology & Software",
+    image: "/news-broadcast-studio.jpg",
+    paragraph:
+      "Our team uses the latest software to make editing fast, collaborative, and professional.",
+    list: [
+      "Editing: Adobe Premiere Pro",
+      "Graphics: Canva",
+      "Collaboration: Adobe Creative Cloud",
+    ],
+    bgColor: "#DBEAFE", // lightest blue
+  },
+  {
+    title: "Techniques & Effects",
+    image: "/news-broadcast-studio.jpg",
+    paragraph:
+      "Storytelling relies on dynamic pacing, B-roll, and creative effects to engage viewers.",
+    list: [
+      "Jump cuts",
+      "Mood-based music",
+      "B-roll transitions",
+      "Synced animated text",
+      "Filters",
+    ],
+    bgColor: "#93C5FD", // medium blue
+  },
+  {
+    title: "Equipment & Visual Style",
+    image: "/news-broadcast-studio.jpg",
+    paragraph:
+      "Consistency in color, typography, and camera angles ensures our broadcasts look polished.",
+    list: [
+      "Camera: iPhone 16",
+      "Microphone: RØDE Wireless Micro",
+      "Consistent color & typography",
+    ],
+    bgColor: "#1D4ED8", // darkest blue
+  },
+];
+
+export default function Page() {
   return (
-    <main className="min-h-screen bg-background flex flex-col">
-      <div className="flex-1 max-w-6xl mx-auto w-full px-4 py-12">
-        <div className="mb-8">
-          <h1 className="text-5xl font-black mb-2">
-            Production Techniques & Tools
-          </h1>
-
-          <div className="mt-15 mb-20 flex">
-            <img
-              className="w-1/3 ml-6 mb-4 rounded-lg shadow-lg"
-              src="/news-broadcast-studio.jpg"
-              alt=""
-            />
-            <div className="ml-10">
-              <h2 className="text-3xl mt-5">Technology & Software</h2>
-              <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>Editing: Adobe Premiere Pro</li>
-                <li>Graphics: Canva</li>
-                <li>Collaboration and accessibility: Adobe Creative Cloud</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="my-20 flex">
-            <div className="mr-10">
-              <h2 className="text-3xl mt-5">Techniques & Effects</h2>
-              <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>Jump cut</li>
-                <li>Music based on mood & fades in/out</li>
-                <li>B-Roll fades in</li>
-                <li>Animated synced text for important moments</li>
-                <li>Filters</li>
-              </ul>
-            </div>
-            <img
-              className="w-1/3 mr-6 mb-4 rounded-lg shadow-lg"
-              src="/news-broadcast-studio.jpg"
-              alt=""
-            />
-          </div>
-          <div className="my-20 flex">
-            <img
-              className="w-1/3 mr-6 mb-4 rounded-lg shadow-lg"
-              src="/news-broadcast-studio.jpg"
-              alt=""
-            />
-            <div className="ml-10">
-              <h2 className="text-3xl mt-5">Equipment & Visual Style</h2>
-              <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>Camera: iPhone 16</li>
-                <li>
-                  Microphone: RØDE Wireless Micro – Compact Wireless Microphone,
-                  Two Mics with Charge Case for Smartphone Content Creation –
-                  USB-C, Black
-                </li>
-                <li>
-                  Creative choices: consistent colors, filters, readable font
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+    <MorphCarousel
+      title="Production Techniques & Tools"
+      description="Explore our production techniques, tools, and visual style that make Innovation News Network broadcasts stand out."
+      sections={sections}
+    />
   );
 }

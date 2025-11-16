@@ -1,91 +1,52 @@
-import { Header } from "@/components/header";
-import { VideoPlayer } from "@/components/video-player";
-import { Footer } from "@/components/footer";
+"use client";
 
-export default function Home() {
+import MorphCarousel from "@/components/MorphCarousel";
+
+const sections = [
+  {
+    title: "Branding & Professionalism",
+    image: "/news-broadcast-studio.jpg",
+    paragraph:
+      "Intro and transitions are brand-focused to maintain professionalism and credibility. Vintage filters and consistent colors give the montage a personable, authentic feel.",
+    list: [
+      "Intro: brand focused, increases professional and credibility",
+      "Transitions: maintains consistent branding between clips, fades out at end",
+      "Vintage filter on montage: makes it more authentic and personable",
+      "Consistent colors",
+    ],
+    bgColor: "#FDE68A",
+  },
+  {
+    title: "Audience Engagement & Accessibility",
+    image: "/news-broadcast-studio.jpg",
+    paragraph:
+      "Captions, lower thirds, and thoughtful pacing help the audience understand the content while engaging a wider audience effectively.",
+    list: [
+      "Captions: increases accessibility",
+      "Lower third: provides context for interviews",
+      "Pacing/Flow: understandable and introduces multiple perspectives smoothly",
+    ],
+    bgColor: "#A7F3D0",
+  },
+  {
+    title: "Storytelling & Impact",
+    image: "/news-broadcast-studio.jpg",
+    paragraph:
+      "B-roll visuals and one-word montage outros highlight the storytelling impact and make viewers reflect on robotics’ influence on students.",
+    list: [
+      "B-roll: visual representation of spoken words",
+      "One word montage outro: prompts audience reflection",
+    ],
+    bgColor: "#BFDBFE",
+  },
+];
+
+export default function Page() {
   return (
-    <main className="min-h-screen bg-background flex flex-col">
-      <div className="flex-1 max-w-6xl mx-auto w-full px-4 py-12">
-        <div className="mb-8">
-          <h1 className="text-5xl font-black mb-2">
-            Visual & Editorial Design
-          </h1>
-
-          <div className="mt-15 mb-20 flex">
-            <img
-              className="w-1/3 ml-6 mb-4 rounded-lg shadow-lg"
-              src="/news-broadcast-studio.jpg"
-              alt=""
-            />
-            <div className="ml-10">
-              <h2 className="text-3xl mt-5">Branding & Professionalism</h2>
-              <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>
-                  Intro: brand focused, increases professional and credibility
-                </li>
-                <li>
-                  Transitions: maintains consistent branding in between clips,
-                  keeping professionalism, fades out at end to signal to
-                  audience that the broadcast has ended
-                </li>
-                <li>
-                  Vintage filter on the montage: makes it more authentic and
-                  personable
-                </li>
-                <li>Consistent colors</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="my-20 flex">
-            <div className="mr-10">
-              <h2 className="text-3xl mt-5">
-                Audience Engagement & Accessibility
-              </h2>
-              <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>
-                  Captions: increases accessibility, connecting to a wider
-                  audience
-                </li>
-                <li>
-                  Lower third: helps provide context for what the interview is
-                  about
-                </li>
-                <li>
-                  Pacing/Flow: paced the video in a way that is understandable
-                  by the audience but still introduces multiple perspectives
-                  through the various interviews. This allows the video to flow
-                  smoothly
-                </li>
-              </ul>
-            </div>
-            <img
-              className="w-1/3 mr-6 mb-4 rounded-lg shadow-lg"
-              src="/news-broadcast-studio.jpg"
-              alt=""
-            />
-          </div>
-          <div className="my-20 flex">
-            <img
-              className="w-1/3 mr-6 mb-4 rounded-lg shadow-lg"
-              src="/news-broadcast-studio.jpg"
-              alt=""
-            />
-            <div className="ml-10">
-              <h2 className="text-3xl mt-5">Storytelling & Impact</h2>
-              <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>
-                  B-roll: shows how words people are saying in a visual way
-                </li>
-                <li>
-                  One word montage outro: causes audience to reflect on the
-                  extent of robotics’ impact on students
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+    <MorphCarousel
+      title="Visual & Editorial Design"
+      description="See how our team uses branding, accessibility, and storytelling techniques to create professional, engaging broadcasts."
+      sections={sections}
+    />
   );
 }
