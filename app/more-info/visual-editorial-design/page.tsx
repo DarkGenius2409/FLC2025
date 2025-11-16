@@ -18,49 +18,44 @@ export default function Home() {
               alt=""
             />
             <div className="ml-10">
-              <h2 className="text-3xl mt-5">Goonana 1</h2>
+              <h2 className="text-3xl mt-5">Branding & Professionalism</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Intro: brand focused, increases professional and credibility
                 </li>
                 <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Transitions: maintains consistent branding in between clips,
+                  keeping professionalism, fades out at end to signal to
+                  audience that the broadcast has ended
                 </li>
                 <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
+                  Vintage filter on the montage: makes it more authentic and
+                  personable
                 </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
-                </li>
+                <li>Consistent colors</li>
               </ul>
             </div>
           </div>
 
           <div className="my-20 flex">
             <div className="mr-10">
-              <h2 className="text-3xl mt-5">Goonana 2</h2>
+              <h2 className="text-3xl mt-5">
+                Audience Engagement & Accessibility
+              </h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Captions: increases accessibility, connecting to a wider
+                  audience
                 </li>
                 <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Lower third: helps provide context for what the interview is
+                  about
                 </li>
                 <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
+                  Pacing/Flow: paced the video in a way that is understandable
+                  by the audience but still introduces multiple perspectives
+                  through the various interviews. This allows the video to flow
+                  smoothly
                 </li>
               </ul>
             </div>
@@ -77,24 +72,14 @@ export default function Home() {
               alt=""
             />
             <div className="ml-10">
-              <h2 className="text-3xl mt-5">Goonana 3</h2>
+              <h2 className="text-3xl mt-5">Storytelling & Impact</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  B-roll: shows how words people are saying in a visual way
                 </li>
                 <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-                <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
+                  One word montage outro: causes audience to reflect on the
+                  extent of robotics’ impact on students
                 </li>
               </ul>
             </div>

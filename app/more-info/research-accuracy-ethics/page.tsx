@@ -18,24 +18,15 @@ export default function Home() {
               alt=""
             />
             <div className="ml-10">
-              <h2 className="text-3xl mt-5">Goonana 1</h2>
+              <h2 className="text-3xl mt-5">Event Verification</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Looked up event on RoboEvents to find it was at East Forsyth
+                  High School
                 </li>
                 <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-                <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
+                  Looked at East Forsyth school website to identify event
+                  organizer at the school and more details about the event
                 </li>
               </ul>
             </div>
@@ -43,24 +34,11 @@ export default function Home() {
 
           <div className="my-20 flex">
             <div className="mr-10">
-              <h2 className="text-3xl mt-5">Goonana 2</h2>
+              <h2 className="text-3xl mt-5">Permissions & Collaboration</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
+                <li>Emailed event organizer to set up time for interview</li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-                <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
+                  Contacted school for permission to record footage at the event
                 </li>
               </ul>
             </div>
@@ -77,24 +55,11 @@ export default function Home() {
               alt=""
             />
             <div className="ml-10">
-              <h2 className="text-3xl mt-5">Goonana 3</h2>
+              <h2 className="text-3xl mt-5">Interview Process & Accuracy</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-                <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
+                  Interviewed students and advisors at the event with their
+                  permission to gain insights into the event.
                 </li>
               </ul>
             </div>

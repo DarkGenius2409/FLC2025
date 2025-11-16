@@ -18,50 +18,24 @@ export default function Home() {
               alt=""
             />
             <div className="ml-10">
-              <h2 className="text-3xl mt-5">Goonana 1</h2>
+              <h2 className="text-3xl mt-5">Technology & Software</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-                <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
-                </li>
+                <li>Editing: Adobe Premiere Pro</li>
+                <li>Graphics: Canva</li>
+                <li>Collaboration and accessibility: Adobe Creative Cloud</li>
               </ul>
             </div>
           </div>
 
           <div className="my-20 flex">
             <div className="mr-10">
-              <h2 className="text-3xl mt-5">Goonana 2</h2>
+              <h2 className="text-3xl mt-5">Techniques & Effects</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-                <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
-                </li>
+                <li>Jump cut</li>
+                <li>Music based on mood & fades in/out</li>
+                <li>B-Roll fades in</li>
+                <li>Animated synced text for important moments</li>
+                <li>Filters</li>
               </ul>
             </div>
             <img
@@ -77,24 +51,16 @@ export default function Home() {
               alt=""
             />
             <div className="ml-10">
-              <h2 className="text-3xl mt-5">Goonana 3</h2>
+              <h2 className="text-3xl mt-5">Equipment & Visual Style</h2>
               <ul className="list-disc text-lg text-muted-foreground mt-4 px-10">
+                <li>Camera: iPhone 16</li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Microphone: RØDE Wireless Micro – Compact Wireless Microphone,
+                  Two Mics with Charge Case for Smartphone Content Creation –
+                  USB-C, Black
                 </li>
                 <li>
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-                <li>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </li>
-                <li>
-                  Nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
+                  Creative choices: consistent colors, filters, readable font
                 </li>
               </ul>
             </div>
