@@ -56,7 +56,7 @@ export function NewsGrid() {
               />
               <div className="flex-1 flex flex-col justify-center">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="breaking-news-badge">{item.category}</span>
+                  <span className="breaking-news-badge text-white">{item.category}</span>
                   <span className="text-xs text-muted-foreground">{item.time}</span>
                 </div>
                 <h4 className="text-lg font-bold group-hover:text-accent transition-colors line-clamp-2">

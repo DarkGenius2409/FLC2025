@@ -1,6 +1,5 @@
-import { Header } from "@/components/header";
 import { VideoPlayer } from "@/components/video-player";
-import { Footer } from "@/components/footer";
+import { FaInfoCircle } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -28,6 +27,7 @@ export default function Home() {
             engineering, strategy, and precision robotics.
           </p>
         </div>
+        <a className="mt-8 hover:bg-foreground text-white w-[30%]  px-6 flex items-center justify-between py-3 rounded font-semibold bg-accent transition cursor-pointer" href="/about-us"><div>How did we film this?</div> <FaInfoCircle /></a>
       </div>
     </main>
   );

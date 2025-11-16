@@ -18,7 +18,7 @@ export function LearnMoreSection() {
     {
       id: 1,
       title: "Visual & Editorial Design",
-      link: "/more-info/visual-editorial-design",
+      link: "/about-us/visual-editorial-design",
       description:
         "Competition's top stories including team interviews, coach interviews, and event planner interviews.",
       thumbnail: "/news-broadcast-studio.jpg",
@@ -26,7 +26,7 @@ export function LearnMoreSection() {
     {
       id: 2,
       title: "Production Techniques & Tools",
-      link: "/more-info/production-techniques-tools",
+      link: "/about-us/production-techniques-tools",
       description:
         "An in-depth investigation into emerging global trends and their implications.",
       thumbnail: "/investigative-journalism-broadcast.jpg",
@@ -34,7 +34,7 @@ export function LearnMoreSection() {
     {
       id: 3,
       title: "Research, Accuracy & Ethical Reporting",
-      link: "/more-info/research-accuracy-ethics",
+      link: "/about-us/research-accuracy-ethics",
       description:
         "Global coverage of major news events from around the world.",
       thumbnail: "/world-news-broadcast.jpg",
@@ -55,7 +55,7 @@ export function LearnMoreSection() {
             <Link href={topic.link} key={topic.id}>
               <div
                 key={topic.id}
-                className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
+                className="h-full group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
                 onClick={() =>
                   setExpandedId(expandedId === topic.id ? null : topic.id)
                 }

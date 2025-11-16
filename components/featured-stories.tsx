@@ -19,7 +19,7 @@ const featuredStories: Story[] = [
     image: "/technology-conference-partnership.jpg",
     category: "Technology",
     time: "15 minutes ago",
-    author: "Sarah Chen",
+    author: "Keshav Shah",
     sources: ["Company Press Release", "Industry Analysts Report", "Reuters"],
   },
   {
@@ -29,7 +29,7 @@ const featuredStories: Story[] = [
     image: "/stock-market-trading-floor.png",
     category: "Business",
     time: "25 minutes ago",
-    author: "Michael Rodriguez",
+    author: "Kaustubh Varikallu",
     sources: ["Financial Markets Database", "Central Bank Reports", "Bloomberg"],
   },
   {
@@ -39,7 +39,7 @@ const featuredStories: Story[] = [
     image: "/medical-laboratory-research.png",
     category: "Health",
     time: "45 minutes ago",
-    author: "Dr. Emily Watson",
+    author: "Aarav Narayan",
     sources: ["Medical Journal Peer Review", "Research Institution", "WHO"],
   },
   {
@@ -49,7 +49,7 @@ const featuredStories: Story[] = [
     image: "/sports-stadium-championship.jpg",
     category: "Sports",
     time: "1 hour ago",
-    author: "James Mitchell",
+    author: "Keshav Shah",
     sources: ["Live Event Coverage", "Official Sports League", "Team Statements"],
   },
 ]
@@ -70,7 +70,7 @@ export function FeaturedStories() {
                   className="news-card-image group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-3 left-3">
-                  <span className="breaking-news-badge">{story.category}</span>
+                  <span className="breaking-news-badge text-white">{story.category}</span>
                 </div>
               </div>
 

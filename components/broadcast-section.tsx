@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import { EllipsisVertical } from "lucide-react";
+import { ChevronDown, EllipsisVertical } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -21,7 +21,7 @@ export function BroadcastSection() {
       duration: "2:57",
       description:
         "Competition's top stories including team interviews, coach interviews, and event planner interviews.",
-      thumbnail: "/news-broadcast-studio.jpg",
+      thumbnail: "/vex.png",
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ export function BroadcastSection() {
   const [expandedId, setExpandedId] = React.useState<number | null>(null);
 
   return (
-    <section className="bg-accent py-12">
+    <section className="py-12">
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-primary mb-2">
@@ -58,8 +58,8 @@ export function BroadcastSection() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
-          {broadcasts.map((broadcast) => (
-            <Link href="robotics">
+          {broadcasts.map((broadcast, index) => (
+            <Link href="robotics" key={index}>
               <div
                 key={broadcast.id}
                 className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
@@ -76,9 +76,9 @@ export function BroadcastSection() {
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors flex items-center justify-center">
-                    <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                       <svg
-                        className="w-8 h-8 text-accent fill-current ml-1"
+                        className="w-8 h-8 text-white fill-current ml-1"
                         viewBox="0 0 24 24"
                       >
                         <path d="M8 5v14l11-7z" />
@@ -119,9 +119,12 @@ export function BroadcastSection() {
           ))}
         </div>
 
-        <div className="mt-8 text-center">
-          <button className="bg-foreground text-white px-8 py-3 rounded font-semibold hover:bg-black transition-colors">
-            View All Broadcasts
+        <div className="mt-8 text-center flex justify-center">
+          <button className="flex items-center justify-between bg-foreground text-white px-8 w-80 py-3 rounded font-semibold hover:bg-black transition-colors">
+            <span>
+              View More Broadcasts
+            </span>
+            <ChevronDown />
           </button>
         </div>
       </div>
