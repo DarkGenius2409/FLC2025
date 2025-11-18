@@ -4,40 +4,44 @@ import MorphCarousel from "@/components/MorphCarousel";
 
 const sections = [
   {
-    title: "Technology & Software",
+    title: "Editing & Graphics Tools",
     image: "/news-broadcast-studio.jpg",
     paragraph:
-      "Our team uses the latest software to make editing fast, collaborative, and professional.",
+      "We used professional tools to ensure the final broadcast maintained high-quality visual and audio standards.",
     list: [
-      "Editing: Adobe Premiere Pro",
-      "Graphics: Canva",
-      "Collaboration: Adobe Creative Cloud",
+      "Adobe Premiere Pro for editing",
+      "Canva for clean, branded graphics",
+      "Layered audio and B-roll",
+      "Smooth interview cuts",
+      "Color adjustments for consistency",
     ],
     bgColor: "#DBEAFE", // lightest blue
   },
   {
-    title: "Techniques & Effects",
+    title: "Production Techniques",
     image: "/news-broadcast-studio.jpg",
     paragraph:
-      "Storytelling relies on dynamic pacing, B-roll, and creative effects to engage viewers.",
+      "Several editing techniques helped improve pacing, storytelling clarity, and audience engagement.",
     list: [
-      "Jump cuts",
-      "Mood-based music",
-      "B-roll transitions",
-      "Synced animated text",
-      "Filters",
+      "Jump cuts for pacing",
+      "Fading background music",
+      "Animated text syncing",
+      "Reinforcing visuals matched to interviews",
+      "Consistent color filters",
     ],
     bgColor: "#93C5FD", // medium blue
   },
   {
-    title: "Equipment & Visual Style",
+    title: "Equipment & Collaboration",
     image: "/news-broadcast-studio.jpg",
     paragraph:
-      "Consistency in color, typography, and camera angles ensures our broadcasts look polished.",
+      "Our equipment and workflow allowed us to produce the segment efficiently without compromising quality.",
     list: [
-      "Camera: iPhone 16",
-      "Microphone: RØDE Wireless Micro",
-      "Consistent color & typography",
+      "iPhone 16 for stable 4K footage",
+      "RØDE Wireless Micro system",
+      "Clear audio in noisy environments",
+      "Adobe Creative Cloud sharing",
+      "Smooth multi-editor workflow",
     ],
     bgColor: "#1D4ED8", // darkest blue
   },

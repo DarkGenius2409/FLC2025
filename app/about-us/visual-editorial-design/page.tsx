@@ -4,38 +4,43 @@ import MorphCarousel from "@/components/MorphCarousel";
 
 const sections = [
   {
-    title: "Branding & Professionalism",
-    image: "/news-broadcast-studio.jpg",
+    title: "Branding & Consistency",
+    image: "/brandih.png",
     paragraph:
-      "Intro and transitions are brand-focused to maintain professionalism and credibility. Vintage filters and consistent colors give the montage a personable, authentic feel.",
+      "Our visual design centered on maintaining a clean, cohesive brand that guides viewers through the story without distraction.",
     list: [
-      "Intro: brand focused, increases professional and credibility",
-      "Transitions: maintains consistent branding between clips, fades out at end",
-      "Vintage filter on montage: makes it more authentic and personable",
-      "Consistent colors",
+      "Consistent color palette",
+      "Repeated typography",
+      "Matching lower thirds",
+      "Unified intro/outro style",
     ],
     bgColor: "#FDE68A",
   },
   {
-    title: "Audience Engagement & Accessibility",
-    image: "/news-broadcast-studio.jpg",
+    title: "B-Roll & Captions",
+    image: "/broll.png",
     paragraph:
-      "Captions, lower thirds, and thoughtful pacing help the audience understand the content while engaging a wider audience effectively.",
+      "B-roll selection and captions were intentionally designed to support interviews and increase accessibility for all viewers.",
     list: [
-      "Captions: increases accessibility",
-      "Lower third: provides context for interviews",
-      "Pacing/Flow: understandable and introduces multiple perspectives smoothly",
+      "Robotics matches & behind-the-scenes shots",
+      "Reinforces spoken content",
+      "Captions for accessibility",
+      "More inclusive viewing experience",
+      "Smooth transitions for clarity",
     ],
     bgColor: "#A7F3D0",
   },
   {
-    title: "Storytelling & Impact",
+    title: "Emotional & Editorial Choices",
     image: "/news-broadcast-studio.jpg",
     paragraph:
-      "B-roll visuals and one-word montage outros highlight the storytelling impact and make viewers reflect on robotics’ influence on students.",
+      "We added stylistic elements to elevate viewer engagement and emphasize the human side of robotics.",
     list: [
-      "B-roll: visual representation of spoken words",
-      "One word montage outro: prompts audience reflection",
+      "One-word student montage",
+      "Vintage filter for authenticity",
+      "Documentary-style tone",
+      "Balanced pacing of interviews",
+      "Highlights student experience",
     ],
     bgColor: "#BFDBFE",
   },

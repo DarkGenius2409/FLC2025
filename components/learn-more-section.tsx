@@ -21,7 +21,7 @@ export function LearnMoreSection() {
       link: "/about-us/visual-editorial-design",
       description:
         "Competition's top stories including team interviews, coach interviews, and event planner interviews.",
-      thumbnail: "/news-broadcast-studio.jpg",
+      thumbnail: "/visual-editorial-design.jpg",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ export function LearnMoreSection() {
       link: "/about-us/production-techniques-tools",
       description:
         "An in-depth investigation into emerging global trends and their implications.",
-      thumbnail: "/investigative-journalism-broadcast.jpg",
+      thumbnail: "/production-techniques-tools.jpg",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ export function LearnMoreSection() {
       link: "/about-us/research-accuracy-ethics",
       description:
         "Global coverage of major news events from around the world.",
-      thumbnail: "/world-news-broadcast.jpg",
+      thumbnail: "/research-accuracy-ethics.jpeg",
     },
   ];
 

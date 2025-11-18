@@ -4,7 +4,7 @@ import MorphCarousel from "@/components/MorphCarousel";
 
 const sections = [
   {
-    title: "Event Verification",
+    title: "Research & Verification",
     image: "/news-broadcast-studio.jpg",
     paragraph:
       "Looked up event on RoboEvents and the East Forsyth school website to identify the organizer and verify event details.",
