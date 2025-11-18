@@ -39,7 +39,7 @@ export default function MorphCarousel({ title, description, sections, className 
 			</div>
 
 			{/* Carousel */}
-			<div className="relative w-full max-w-6xl h-[520px] flex items-center justify-center z-10">
+			<div className="relative w-full max-w-7xl h-[520px] flex items-center justify-center z-10">
 				<AnimatePresence mode="wait">
 					<motion.div
 						key={current.title}
@@ -47,7 +47,7 @@ export default function MorphCarousel({ title, description, sections, className 
 						animate={{ opacity: 1, x: 0, scale: 1 }}
 						exit={{ opacity: 0, x: index % 2 === 0 ? -100 : 100, scale: 0.95 }}
 						transition={{ duration: 0.7, ease: "easeInOut" }}
-						className={`bg-white absolute inset-0 rounded-2xl overflow-hidden flex flex-col md:flex-row w-full ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+						className={`bg-white border-muted border-4 absolute inset-0 rounded-2xl overflow-hidden flex flex-col md:flex-row w-full ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
 							}`}
 						style={{ boxShadow: `0 25px 50px -12px ${current.bgColor}80` }}
 					>

@@ -3,17 +3,16 @@ import { LearnMoreSection } from "@/components/learn-more-section";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background flex flex-col">
+    <main className="min-h-screen bg-background flex flex-col pb-4">
       <div className="flex-1 max-w-6xl mx-auto w-full px-4 py-12">
 
         <div className="my-10 flex">
           <div>
             <h1 className="text-5xl font-black mb-4">About Our Video</h1>
             <p className="list-disc text-lg text-muted-foreground mr-10">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              Explore the behind-the-scenes process of creating a professional news broadcast.
+              From scripting and filming to editing and production, our video gives you an inside look
+              at how a modern news studio operates efficiently and delivers high-quality content.
             </p>
           </div>
           <img
